@@ -63,19 +63,19 @@ namespace P5_4_1214078
 
             string jadwal = "";
 
-            if (rbJadwal1.Checked == true)
+            if (rbJadwal1.Checked)
             {
                 jadwal = "Senin & Rabu, 14.00 - 16.00";
             }
-            else if (rbJadwal2.Checked == true)
+            else if (rbJadwal2.Checked)
             {
                 jadwal = "Senin & Kamis, 14.00 - 16.00";
             }
-            else if (rbJadwal3.Checked == true)
+            else if (rbJadwal3.Checked)
             {
                 jadwal = "Sabtu & Minggu, 09.00 - 11.00";
             }
-            else if (rbJadwal4.Checked == true)
+            else if (rbJadwal4.Checked)
             {
                 jadwal = "Minggu, 13.00 - 17.00";
             }
